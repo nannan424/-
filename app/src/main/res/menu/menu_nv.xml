@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:icon="@drawable/ic_dialer_sip_black_24dp"
+    android:id="@+id/imem1"
+    android:title="联系我"/>
+
+    <item android:title="设置"
+        android:icon="@drawable/set"
+        android:id="@+id/imem2"
+        />
+    <item android:id="@+id/imem3"
+        android:icon="@drawable/ic_wb_incandescent_black_24dp"
+        android:title="关闭"
+
+        />
+</menu>
