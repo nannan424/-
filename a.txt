@@ -1,0 +1,10 @@
+   mBtnVideo = (VideoPlayer) findViewById(R.id.btn_video);
+        mBtnStart = (Button) findViewById(R.id.btn_start);
+
+        mBtnStart.setOnClickListener(this);
+        //创建基础视频播放器，一般播放器的功能
+        BasisVideoController controller = new BasisVideoController(this);
+//设置控制器
+        mBtnVideo.setController(controller);
+//设置视频播放链接地址
+        mBtnVideo.setUrl(url);
